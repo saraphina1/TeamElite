@@ -431,10 +431,12 @@ input[type=text], input[type=password] {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
-.caro{
-    width: 100%;
-    height: 20vh;
-}
+/*.caro{
+    max-width: 100%;
+    width: 80%;
+    height: 80vh;
+}*/
+
 .addImg{
     display: flex;
 }
