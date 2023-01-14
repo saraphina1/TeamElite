@@ -95,6 +95,7 @@
     border: 20px;
     color:solid violet;
     box-sizing: border-box;
+    margin-top: 20px;
 }
 .container{
     display: flex;
@@ -145,6 +146,7 @@ input[type=text], input[type=password] {
     font-family:'Times New Roman', Times, serif;
     font-size: 30px;
     font-weight: 800px;
+    margin-top: 20px;
 }
 
 
@@ -743,5 +745,20 @@ color: white;
 
 }
 .pa{
-    margin-left: 0%;
+    margin-left: 30%;
+}
+ .error2{
+    color: red;
+    display: none;
+}
+.error-text{
+    color: red;
+    display: none;
+}
+.logologin{
+    width: 25%;
+    margin-top: 20px;
+}
+.login-cont{
+    margin-top: 20px;
 }

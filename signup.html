@@ -12,34 +12,35 @@
 <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <div class="container img-fluid">
-    <img src="images/beauty logo.png"/>
+  <div class="container img-fluid">
+    <img src="images/beauty logo (1).png" class="logologin"/>
     
    <h2>Welcome Onboard!</h2>
    <p>let's get started</p>
    
-   <form id="signup" class="form">
-    <div class="form-group">
+   <form id="signup" action="homepage.html" method="/">
+    <div class="emailfield invalid">
         <label for="email"><b>Email</b></label></br>
-        <input type="text" placeholder="Email" id="email" name="email" required>
-        <small></small>
+        <input type="text" placeholder="Email" class="email" name="email" required>
+        <div class="error-text">Please enter a valid email</div>
     </div>
-    <div class="form-group">
+    <div class="passfield">
         <label for="pwd"><b>Password</b></label></br>
-        <input type="text" placeholder="Password" id="pwd" name="pwd" required>
-        <small></small>
+        <input type="text" placeholder="Password" class="pwd" name="pwd" required>
+        <div class="error-text">Please enter atleast 6 characters</div>
     </div>
-    <div class="form-group">
+    <div class="passfield2">
         <label for="pwd2"><b>Re-type Password</b></label></br>
-        <input type="text" placeholder="Re-type Password" id="pwd2" name="pwd2" required>
-        <small></small>
+        <input type="text" placeholder="Re-type Password" class="pwd2" name="pwd2" required>
+        <div class="error-text">Password don't match</small>
     </div>
     <div class="form-group">
         <a href="homepage.html">
-            <input type="button" onclick="window.location.href='homepage.html';"
-        class="full-btn" value="Sign up"/>
+            <button type="submit" class="full-btn">Create account</button>
+        
         </a>
     </div>
+    
 
 
    <!-- JavaScript Bundle with Popper -->
